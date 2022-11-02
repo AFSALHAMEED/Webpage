@@ -1,0 +1,38 @@
+
+.row{
+    width: 100vw;
+    overflow-y: hidden;
+    height: 100vh;
+    background:linear-gradient(rgba(2, 121, 201, 0.5),rgb(18, 133, 241))
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 2px solid black;
+color: blue;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    width: 300px;
+padding: 10px 0;
+color: #141414;
+margin-top: 15px;
+border-radius: 5px solid black;
+cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 3px 6px silver;
+
+}
